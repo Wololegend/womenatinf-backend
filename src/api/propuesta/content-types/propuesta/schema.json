@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "propuestas",
+  "info": {
+    "singularName": "propuesta",
+    "pluralName": "propuestas",
+    "displayName": "Propuesta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "documentos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
