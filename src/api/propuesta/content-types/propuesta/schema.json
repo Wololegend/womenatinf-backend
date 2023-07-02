@@ -30,16 +30,6 @@
     "link": {
       "type": "string",
       "required": true
-    },
-    "documentos": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
     }
   }
 }

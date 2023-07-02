@@ -4,7 +4,8 @@
   "info": {
     "singularName": "publicacion",
     "pluralName": "publicaciones",
-    "displayName": "Publicacion"
+    "displayName": "Publicacion",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,18 +21,24 @@
       "required": true
     },
     "media": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "etiquetas": {
       "type": "string",
       "required": true
+    },
+    "Tipos": {
+      "type": "enumeration",
+      "enum": [
+        "Destacados",
+        "Locales",
+        "NoDestacados"
+      ]
     }
   }
 }

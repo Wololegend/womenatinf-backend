@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "fecha_hora_algoritmos",
+  "info": {
+    "singularName": "fecha-hora-algoritmo",
+    "pluralName": "fecha-hora-algoritmos",
+    "displayName": "FechaHora_Algoritmo"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fechaHora": {
+      "type": "datetime"
+    }
+  }
+}

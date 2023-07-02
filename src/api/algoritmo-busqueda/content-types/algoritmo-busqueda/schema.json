@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "algoritmo_busquedas",
+  "info": {
+    "singularName": "algoritmo-busqueda",
+    "pluralName": "algoritmo-busquedas",
+    "displayName": "Algoritmo - Búsqueda"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Fragmento": {
+      "type": "text",
+      "required": false
+    },
+    "Enlace": {
+      "type": "text",
+      "required": true
+    },
+    "Puntuacion": {
+      "type": "integer",
+      "required": true
+    },
+    "Origen": {
+      "type": "string"
+    },
+    "LocalizacionBusqueda": {
+      "type": "string"
+    },
+    "PalabrasClave": {
+      "type": "string"
+    }
+  }
+}
